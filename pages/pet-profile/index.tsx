@@ -10,13 +10,13 @@ export default function PetProfile() {
 
   return (
     <div className="bg-transparent w-50 w-full min-h-full">
-      <div className="relative bg-[url('https://png.pngtree.com/background/20210716/original/pngtree-cute-dog-tiled-background-mixed-colors-picture-image_1349643.jpg')] h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l">
+      <div className="relative bg-[url('https://png.pngtree.com/background/20210716/original/pngtree-cute-dog-tiled-background-mixed-colors-picture-image_1349643.jpg')] h-48 flex-none bg-cover rounded-t">
         <div className="rounded overflow-hidden shadow-lg max-w-lg px-6 py-4 bg-white absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-1/2 ">
           <p className="text-indigo-400 text-base">{data.name}</p>
           <p className="text-indigo-400 text-base">{data.description}</p>
           <p className="text-indigo-400 text-base">{data.weight}</p>
           <Link
-            href="/edit-user-profile"
+            href="/edit-pet-profile"
             className="leading-6 text-slate-400 hover:text-slate-500 ml-20"
           >
             Editar
@@ -24,10 +24,10 @@ export default function PetProfile() {
         </div>
       </div>
       <div className="rounded overflow-hidden shadow-lg mt-28">
-        <div className="w-full lg:max-w-full lg:flex ml-10">
+        <div className="w-full ml-10">
           <Link
             href="/procedures"
-            className="max-w-sm my-4 border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-slate-100 rounded-b lg:rounded-b-none lg:rounded-r p-4 flex justify-between leading-normal"
+            className="max-w-sm my-4 border-r border-b border-l border-gray-400 bg-slate-100 rounded-b p-4 flex justify-between leading-normal"
           >
             <div className="flex-initial">
               <h3 className=" text-1xl font-semibold tracking-tight">
@@ -51,7 +51,7 @@ export default function PetProfile() {
           </Link>
           <Link
             href="/nutrition"
-            className="max-w-sm my-4 border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-slate-100 rounded-b lg:rounded-b-none lg:rounded-r p-4 flex justify-between leading-normal"
+            className="max-w-sm my-4 border-r border-b border-l border-gray-400  bg-slate-100 rounded-b p-4 flex justify-between leading-normal"
           >
             <div className="flex-initial">
               <h3 className="text-1xl font-semibold tracking-tight">
@@ -75,7 +75,7 @@ export default function PetProfile() {
           </Link>
           <Link
             href="/shower"
-            className="max-w-sm my-4 border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-slate-100 rounded-b lg:rounded-b-none lg:rounded-r p-4 flex justify-between leading-normal"
+            className="max-w-sm my-4 border-r border-b border-l border-gray-400 bg-slate-100 rounded-b  p-4 flex justify-between leading-normal"
           >
             <div className="flex-initial">
               <h3 className=" text-1xl font-semibold tracking-tight">Baño</h3>
@@ -97,7 +97,7 @@ export default function PetProfile() {
           </Link>
           <Link
             href="/medical-record"
-            className="max-w-sm my-4 border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-slate-100 rounded-b lg:rounded-b-none lg:rounded-r p-4 flex justify-between leading-normal"
+            className="max-w-sm my-4 border-r border-b border-l border-gray-400 bg-slate-100 rounded-b p-4 flex justify-between leading-normal"
           >
             <div className="flex-initial">
               <h3 className=" text-1xl font-semibold tracking-tight">
@@ -121,7 +121,7 @@ export default function PetProfile() {
           </Link>
           <Link
             href="/calendar"
-            className="max-w-sm my-4 border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-slate-100 rounded-b lg:rounded-b-none lg:rounded-r p-4 flex justify-between leading-normal"
+            className="max-w-sm my-4 border-r border-b border-l border-gray-400 bg-slate-100 rounded-b p-4 flex justify-between leading-normal"
           >
             <div className="flex-initial">
               <h3 className=" text-1xl font-semibold tracking-tight">

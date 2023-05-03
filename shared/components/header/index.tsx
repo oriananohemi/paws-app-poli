@@ -12,7 +12,7 @@ export default function Header() {
     typeof window !== "undefined" ? window.sessionStorage.getItem("at") : false;
 
   return (
-    <div className="flex justify-between px-6 py-2 lg:px-8">
+    <div className="flex justify-between px-6 py-2">
       <img className="h-15 w-auto" src="logo.jpg" alt="Paws App" />
       {userLogged && (
         <button

@@ -19,7 +19,7 @@ export default function UserProfile() {
 
   return (
     <div className="bg-transparent w-50 w-full min-h-full">
-      <div className="relative bg-[url('https://static-cse.canva.com/blob/965587/1600w-SQm48mQbOUc.jpg')] h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l">
+      <div className="relative bg-[url('https://static-cse.canva.com/blob/965587/1600w-SQm48mQbOUc.jpg')] h-48 flex-none bg-cover rounded-t">
         <div className="rounded overflow-hidden shadow-lg max-w-lg px-6 py-4 bg-white absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-1/2 ">
           <p className="text-indigo-400 text-base">{data.name}</p>
           <p className="text-indigo-400 text-base">{data.email}</p>
@@ -38,10 +38,10 @@ export default function UserProfile() {
             Mascotas
           </h2>
 
-          <div className="w-full lg:max-w-full lg:flex">
+          <div className="w-full">
             <Link
               href="/pet-profile"
-              className="border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex justify-between leading-normal"
+              className="border-r border-b border-l border-gray-400 bg-white rounded-b p-4 flex justify-between leading-normal"
             >
               <img className="flex-initial" src="" alt="" />
               <div className="flex-initial">
