@@ -1,4 +1,4 @@
-# PAWS APP
+# PAWS APP
 
 This project was created for the POLI software engineering course
 
